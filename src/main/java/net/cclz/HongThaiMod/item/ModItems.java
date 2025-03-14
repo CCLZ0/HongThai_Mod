@@ -12,6 +12,12 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, HongThaiMod.MOD_ID);
 
     public static final RegistryObject<Item> HONGTHAI = ITEMS.register("hongthai",
+            () -> new Item(new Item.Properties().food(ModFoods.HONGTHAI)));
+
+    public static final RegistryObject<Item> BOTTLE = ITEMS.register("bottle",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> KELP_PLASTIC = ITEMS.register("kelp_plastic",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){

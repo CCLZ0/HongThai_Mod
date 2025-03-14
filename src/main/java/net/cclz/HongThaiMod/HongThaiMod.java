@@ -48,6 +48,10 @@ public class HongThaiMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
             event.accept(ModItems.HONGTHAI);
+            event.accept(ModItems.BOTTLE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.KELP_PLASTIC);
         }
     }
 
