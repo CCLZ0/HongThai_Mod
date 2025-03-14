@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "   ",
-    "## ",
-    "## "
-  ],
   "key": {
-    "#": {
+    "S": {
       "item": "minecraft:kelp"
     }
   },
+  "pattern": [
+    "   ",
+    "SS ",
+    "SS "
+  ],
   "result": {
     "item": "hongthaimod:kelp_plastic"
-  }
+  },
+  "show_notification": true
 }
