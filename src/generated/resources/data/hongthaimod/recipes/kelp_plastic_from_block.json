@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hongthaimod:kelp_plastic_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "hongthaimod:kelp_plastic"
+  },
+  "show_notification": true
+}

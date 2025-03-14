@@ -8,8 +8,8 @@ import net.minecraft.world.food.FoodProperties;
 public class ModFoods {
     public static final FoodProperties HONGTHAI = new FoodProperties.Builder()
             .nutrition(0)
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3000, 1), 1.0f)
-            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 3000, 1), 1.0f)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3000, 1), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 400, 1), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 1), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 400, 1), 1.0f)
             .alwaysEat().build();
 }
