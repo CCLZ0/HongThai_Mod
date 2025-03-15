@@ -1,6 +1,7 @@
 package net.cclz.HongThaiMod.block;
 
 import net.cclz.HongThaiMod.HongThaiMod;
+import net.cclz.HongThaiMod.block.custom.MintCropBlock;
 import net.cclz.HongThaiMod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> KELP_PLASTIC_BLOCK = registerBlock("kelp_plastic_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.CANDLE)));
+
+
+
+    public static final RegistryObject<Block> MINT_CROP = BLOCKS.register("mint_crop",
+            () -> new MintCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

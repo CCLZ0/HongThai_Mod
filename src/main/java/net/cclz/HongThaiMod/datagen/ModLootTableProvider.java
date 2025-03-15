@@ -14,4 +14,5 @@ public class ModLootTableProvider {
                 new LootTableProvider.SubProviderEntry(ModBlockLootTables::new, LootContextParamSets.BLOCK)
         ));
     }
+
 }

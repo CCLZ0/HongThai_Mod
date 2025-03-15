@@ -21,8 +21,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HONGTHAI.get());
                         output.accept(ModItems.BOTTLE.get());
                         output.accept(ModItems.KELP_PLASTIC.get());
+                        output.accept(ModItems.MINT.get());
+                        output.accept(ModItems.MINT_SEEDS.get());
 
-                        output .accept(ModBlocks.KELP_PLASTIC_BLOCK.get());
+                        output.accept(ModBlocks.KELP_PLASTIC_BLOCK.get());
                     })
                     .build());
 
