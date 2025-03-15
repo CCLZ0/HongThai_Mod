@@ -20,6 +20,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BOTTLE);
         simpleItem(ModItems.HONGTHAI);
         simpleItem(ModItems.KELP_PLASTIC);
+        simpleItem(ModItems.MINT);
+        simpleItem(ModItems.MINT_SEEDS);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

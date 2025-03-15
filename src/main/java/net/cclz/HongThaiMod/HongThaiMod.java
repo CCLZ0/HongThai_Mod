@@ -53,9 +53,21 @@ public class HongThaiMod {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
             event.accept(ModItems.HONGTHAI);
             event.accept(ModItems.BOTTLE);
+            event.accept(ModItems.MINT);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(ModItems.MINT_SEEDS);
+        }
+
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.MINT);
             event.accept(ModItems.KELP_PLASTIC);
+            event.accept(ModBlocks.KELP_PLASTIC_BLOCK);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.KELP_PLASTIC_BLOCK);
         }
     }
 

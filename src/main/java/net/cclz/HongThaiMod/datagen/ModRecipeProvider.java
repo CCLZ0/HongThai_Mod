@@ -39,10 +39,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.KELP), has(Items.KELP))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.KELP_PLASTIC.get())
-                .requires(ModBlocks.KELP_PLASTIC_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.KELP_PLASTIC_BLOCK.get()), has(ModBlocks.KELP_PLASTIC_BLOCK.get()))
-                .save(pWriter);
+//        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.KELP_PLASTIC.get())
+//                .requires(ModBlocks.KELP_PLASTIC_BLOCK.get())
+//                .unlockedBy(getHasName(ModBlocks.KELP_PLASTIC_BLOCK.get()), has(ModBlocks.KELP_PLASTIC_BLOCK.get()))
+//                .save(pWriter);
     }
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
         oreCooking(pFinishedRecipeConsumer, RecipeSerializer.SMELTING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTIme, pGroup, "_from_smelting");

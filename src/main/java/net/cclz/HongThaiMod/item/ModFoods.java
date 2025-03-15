@@ -11,4 +11,9 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 1), 1.0f)
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 400, 1), 1.0f)
             .alwaysEat().build();
+
+    public static final FoodProperties MINT = new FoodProperties.Builder()
+            .nutrition(1)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 25, 0), 1.0f)
+            .build();
 }
