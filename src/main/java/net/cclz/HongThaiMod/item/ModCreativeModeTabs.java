@@ -25,6 +25,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MINT_SEEDS.get());
 
                         output.accept(ModBlocks.KELP_PLASTIC_BLOCK.get());
+
+                        output.accept(ModBlocks.EUCALYPTUS_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get());
+                        output.accept(ModBlocks.EUCALYPTUS_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get());
+
+                        output.accept(ModBlocks.EUCALYPTUS_PLANKS.get());
+                        output.accept(ModBlocks.EUCALYPTUS_LEAVES.get());
                     })
                     .build());
 

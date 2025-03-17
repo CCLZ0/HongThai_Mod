@@ -1,9 +1,11 @@
 package net.cclz.HongThaiMod.datagen;
 
 import net.cclz.HongThaiMod.HongThaiMod;
+import net.cclz.HongThaiMod.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -17,6 +19,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.EUCALYPTUS_LOG.get().asItem())
+                .add(ModBlocks.EUCALYPTUS_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get().asItem());
 
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.EUCALYPTUS_PLANKS.get().asItem());
     }
 }

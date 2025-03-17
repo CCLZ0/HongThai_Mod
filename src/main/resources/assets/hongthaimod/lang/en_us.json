@@ -8,5 +8,12 @@
 
   "block.hongthaimod.kelp_plastic_block": "Kelp Plastic Block",
 
+  "block.hongthaimod.eucalyptus_log": "Eucalyptus Log",
+  "block.hongthaimod.eucalyptus_wood": "Eucalyptus Wood",
+  "block.hongthaimod.stripped_eucalyptus_log": "Stripped Eucalyptus Log",
+  "block.hongthaimod.stripped_eucalyptus_wood": "Stripped Eucalyptus Wood",
+  "block.hongthaimod.eucalyptus_planks": "Eucalyptus Planks",
+  "block.hongthaimod.eucalyptus_leaves": "Eucalyptus Leaves",
+
   "creativetab.hongthai_tab": "Hong Thai Mod"
 }

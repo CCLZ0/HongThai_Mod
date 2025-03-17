@@ -7,10 +7,13 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Function;
@@ -25,6 +28,35 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.KELP_PLASTIC_BLOCK);
 
         makeMintCrop((CropBlock) ModBlocks.MINT_CROP.get(), "mint_stage","mint_stage");
+
+        logBlock(((RotatedPillarBlock) ModBlocks.EUCALYPTUS_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.EUCALYPTUS_WOOD.get()), blockTexture(ModBlocks.EUCALYPTUS_LOG.get()),blockTexture(ModBlocks.EUCALYPTUS_LOG.get()));
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_EUCALYPTUS_LOG.get()), blockTexture(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get()),
+                new ResourceLocation(HongThaiMod.MOD_ID, "block/stripped_eucalyptus_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get()), blockTexture(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get()));
+
+        blockItem(ModBlocks.EUCALYPTUS_LOG);
+        blockItem(ModBlocks.EUCALYPTUS_WOOD);
+        blockItem(ModBlocks.STRIPPED_EUCALYPTUS_LOG);
+        blockItem(ModBlocks.STRIPPED_EUCALYPTUS_WOOD);
+
+        blockWithItem(ModBlocks.EUCALYPTUS_PLANKS);
+
+        leavesBlock(ModBlocks.EUCALYPTUS_LEAVES);
+
+    }
+
+    private void leavesBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(),
+                models().singleTexture(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), new ResourceLocation("minecraft:block/leaves"),
+                        "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
+    }
+
+    private void blockItem(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile(HongThaiMod.MOD_ID +
+                ":block/" + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
     }
 
     public void makeMintCrop(CropBlock block, String modelName, String textureName) {

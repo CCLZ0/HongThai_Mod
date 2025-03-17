@@ -1,3 +1,9 @@
-// 1.20.1	2025-03-15T16:29:07.1333876	Loot Tables
+// 1.20.1	2025-03-18T02:43:54.6449802	Loot Tables
+69202d0a97907dfcfc044db999081903124d117d data/hongthaimod/loot_tables/blocks/eucalyptus_leaves.json
+a20955f2c378080d97fcc1c2199769b2283b6f0f data/hongthaimod/loot_tables/blocks/eucalyptus_log.json
+e2c7e12c778a6efda80bf4126d1dd9a97ad2430b data/hongthaimod/loot_tables/blocks/eucalyptus_planks.json
+844999caf96a26b91748001d427fdffe90a5e174 data/hongthaimod/loot_tables/blocks/eucalyptus_wood.json
 d38708759b1820e1fedb921fdd4b9a3fb1f83710 data/hongthaimod/loot_tables/blocks/kelp_plastic_block.json
 5a5f72f2669ee70f20d42972928053c34d2e99c3 data/hongthaimod/loot_tables/blocks/mint_crop.json
+920244bc4ba98baac4caa977c8d3136aeb02c378 data/hongthaimod/loot_tables/blocks/stripped_eucalyptus_log.json
+58ecf6c848ec68c3d89f92d3f54c350541872674 data/hongthaimod/loot_tables/blocks/stripped_eucalyptus_wood.json

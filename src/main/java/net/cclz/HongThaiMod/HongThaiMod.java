@@ -58,6 +58,11 @@ public class HongThaiMod {
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
             event.accept(ModItems.MINT_SEEDS);
+//            event.accept(ModBlocks.EUCALYPTUS_LOG);
+//            event.accept(ModBlocks.STRIPPED_EUCALYPTUS_LOG);
+//            event.accept(ModBlocks.EUCALYPTUS_WOOD);
+//            event.accept(ModBlocks.STRIPPED_EUCALYPTUS_WOOD);
+//            event.accept(ModBlocks.EUCALYPTUS_LEAVES);
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
@@ -68,6 +73,7 @@ public class HongThaiMod {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.KELP_PLASTIC_BLOCK);
+//            event.accept(ModBlocks.EUCALYPTUS_PLANKS);
         }
     }
 

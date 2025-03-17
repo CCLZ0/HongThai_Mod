@@ -1,5 +1,7 @@
-// 1.20.1	2025-03-15T15:57:34.9434375	Recipes
-2c9f5d737b6ea60d9a3d98b28aca935c4c7ec274 data/hongthaimod/advancements/recipes/misc/kelp_plastic.json
+// 1.20.1	2025-03-17T23:54:53.325456	Recipes
 12cb1bddf6234ae10a3b36b3e18f6fe9a2f2da2b data/hongthaimod/advancements/recipes/misc/kelp_plastic_block.json
-886560599d05003e56544a041e8607c373a87c44 data/hongthaimod/recipes/kelp_plastic.json
+c27668b2480a5589cbfebd1ea35818958a8a8858 data/hongthaimod/advancements/recipes/misc/kelp_plastic_from_block.json
+d117797f856117e6376c7d7c91614780b442af2f data/hongthaimod/advancements/recipes/misc/kelp_plastic_from_kelp.json
 040015728a29ae86d6bfb37d83911659b96a12a1 data/hongthaimod/recipes/kelp_plastic_block.json
+03e08e3ec9d9086deade86029f266c8cdc475266 data/hongthaimod/recipes/kelp_plastic_from_block.json
+886560599d05003e56544a041e8607c373a87c44 data/hongthaimod/recipes/kelp_plastic_from_kelp.json

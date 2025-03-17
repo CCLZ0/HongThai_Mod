@@ -21,12 +21,21 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.KELP_PLASTIC_BLOCK.get());
+        this.dropSelf(ModBlocks.EUCALYPTUS_LOG.get());
+        this.dropSelf(ModBlocks.EUCALYPTUS_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get());
+        this.dropSelf(ModBlocks.EUCALYPTUS_PLANKS.get());
+
+        this.add(ModBlocks.EUCALYPTUS_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.MINT_CROP.get(), NORMAL_LEAVES_SAPLING_CHANCES)); //Change mint crop to sapling
 
         LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(ModBlocks.MINT_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(MintCropBlock.AGE,5));
         this.add(ModBlocks.MINT_CROP.get(), createCropDrops(ModBlocks.MINT_CROP.get(), ModItems.MINT.get(),
                 ModItems.MINT_SEEDS.get(), lootitemcondition$builder));
+
     }
 
     @Override
