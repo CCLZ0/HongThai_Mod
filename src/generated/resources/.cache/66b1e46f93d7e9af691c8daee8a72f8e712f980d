@@ -1,5 +1,8 @@
-// 1.20.1	2025-03-15T15:57:34.9424299	Item Models: hongthaimod
+// 1.20.1	2025-03-18T23:43:29.6669985	Item Models: hongthaimod
 f1eea5c151e47bfc18b52f534728eda95b50b889 assets/hongthaimod/models/item/bottle.json
+e8ea7d0e0e27097f1d5cd5270341a915a3ca0cba assets/hongthaimod/models/item/camphor_fruit.json
+e1f4e0bce3c17f7eaf2634be0ab00337930db127 assets/hongthaimod/models/item/camphor_sapling.json
+95d3ac51bcf9d4eda5db1089cdc6f97df09e2b15 assets/hongthaimod/models/item/eucalyptus_sapling.json
 961be7c7189eccf0f416c57dfe4a070b0a431b76 assets/hongthaimod/models/item/hongthai.json
 df7eb9cb3210822c2e15ee0a8cc4bfebde07b1be assets/hongthaimod/models/item/kelp_plastic.json
 9fca7ed36f5b8f0b72612dd4de385eba04440d7c assets/hongthaimod/models/item/mint.json

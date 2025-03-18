@@ -16,4 +16,9 @@ public class ModFoods {
             .nutrition(1)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 25, 0), 1.0f)
             .build();
+
+    public static final FoodProperties CAMPHOR_FRUIT = new FoodProperties.Builder()
+            .nutrition(1)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 25, 0), 1.0f)
+            .build();
 }

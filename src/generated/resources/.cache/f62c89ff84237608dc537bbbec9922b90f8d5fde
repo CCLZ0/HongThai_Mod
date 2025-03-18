@@ -1,5 +1,6 @@
-// 1.20.1	2025-03-18T02:43:54.6459878	Tags for minecraft:block mod id hongthaimod
-41f9f9770ab28e37f29266963f0bab652f20873b data/minecraft/tags/blocks/logs_that_burn.json
+// 1.20.1	2025-03-19T00:37:36.7201419	Tags for minecraft:block mod id hongthaimod
+9ed12bf589d043c2b48eadacd58f817c482db0d7 data/minecraft/tags/blocks/logs.json
+c24782ee4943a926d64ba1bda3e25df6f34190b3 data/minecraft/tags/blocks/logs_that_burn.json
 7a54f6a98efec18dfb1068915145e1499b01cc72 data/minecraft/tags/blocks/mineable/pickaxe.json
 7a54f6a98efec18dfb1068915145e1499b01cc72 data/minecraft/tags/blocks/needs_stone_tool.json
-bfcc27cc2a7a2c8cf9a0cd10891863d1469ffe43 data/minecraft/tags/blocks/planks.json
+7e9eb1fb2915c077fc66895a87f874bd50cd4938 data/minecraft/tags/blocks/planks.json

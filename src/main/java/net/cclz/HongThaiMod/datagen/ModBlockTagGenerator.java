@@ -26,13 +26,28 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.KELP_PLASTIC_BLOCK.get());
 
         this.tag(BlockTags.LOGS_THAT_BURN)
-                .add(ModBlocks.EUCALYPTUS_LOG.get())
-                .add(ModBlocks.EUCALYPTUS_WOOD.get())
-                .add(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get())
-                .add(ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get());
+                .add(ModBlocks.EUCALYPTUS_LOG.get(),
+                        ModBlocks.EUCALYPTUS_WOOD.get(),
+                        ModBlocks.STRIPPED_EUCALYPTUS_LOG.get(),
+                        ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get(),
+                        ModBlocks.CAMPHOR_LOG.get(),
+                        ModBlocks.CAMPHOR_WOOD.get(),
+                        ModBlocks.STRIPPED_CAMPHOR_LOG.get(),
+                        ModBlocks.STRIPPED_CAMPHOR_WOOD.get());
+
+        this.tag(BlockTags.LOGS)
+                .add(ModBlocks.EUCALYPTUS_LOG.get(),
+                        ModBlocks.STRIPPED_EUCALYPTUS_LOG.get(),
+                        ModBlocks.EUCALYPTUS_WOOD.get(),
+                        ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get(),
+                        ModBlocks.CAMPHOR_LOG.get(),
+                        ModBlocks.STRIPPED_CAMPHOR_LOG.get(),
+                        ModBlocks.CAMPHOR_WOOD.get(),
+                        ModBlocks.STRIPPED_CAMPHOR_WOOD.get());
 
         this.tag(BlockTags.PLANKS)
-                .add(ModBlocks.EUCALYPTUS_PLANKS.get());
+                .add(ModBlocks.EUCALYPTUS_PLANKS.get(),
+                        ModBlocks.CAMPHOR_PLANKS.get());
     }
 
 }

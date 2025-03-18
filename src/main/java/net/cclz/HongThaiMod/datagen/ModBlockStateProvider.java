@@ -32,10 +32,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
         logBlock(((RotatedPillarBlock) ModBlocks.EUCALYPTUS_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.EUCALYPTUS_WOOD.get()), blockTexture(ModBlocks.EUCALYPTUS_LOG.get()),blockTexture(ModBlocks.EUCALYPTUS_LOG.get()));
 
+        logBlock(((RotatedPillarBlock) ModBlocks.CAMPHOR_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.CAMPHOR_WOOD.get()), blockTexture(ModBlocks.CAMPHOR_LOG.get()),blockTexture(ModBlocks.CAMPHOR_LOG.get()));
+
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_EUCALYPTUS_LOG.get()), blockTexture(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get()),
                 new ResourceLocation(HongThaiMod.MOD_ID, "block/stripped_eucalyptus_log_top"));
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get()), blockTexture(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get()),
                 blockTexture(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get()));
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_CAMPHOR_LOG.get()), blockTexture(ModBlocks.STRIPPED_CAMPHOR_LOG.get()),
+                new ResourceLocation(HongThaiMod.MOD_ID, "block/stripped_camphor_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_CAMPHOR_WOOD.get()), blockTexture(ModBlocks.STRIPPED_CAMPHOR_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_CAMPHOR_LOG.get()));
 
         blockItem(ModBlocks.EUCALYPTUS_LOG);
         blockItem(ModBlocks.EUCALYPTUS_WOOD);
@@ -46,6 +54,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         leavesBlock(ModBlocks.EUCALYPTUS_LEAVES);
 
+        blockItem(ModBlocks.CAMPHOR_LOG);
+        blockItem(ModBlocks.CAMPHOR_WOOD);
+        blockItem(ModBlocks.STRIPPED_CAMPHOR_LOG);
+        blockItem(ModBlocks.STRIPPED_CAMPHOR_WOOD);
+
+        blockWithItem(ModBlocks.CAMPHOR_PLANKS);
+
+        leavesBlock(ModBlocks.CAMPHOR_LEAVES);
+        saplingBlock(ModBlocks.EUCALYPTUS_SAPLING);
+        saplingBlock(ModBlocks.CAMPHOR_SAPLING);
+    }
+
+    private void saplingBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlock(blockRegistryObject.get(),
+                models().cross(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
 
     private void leavesBlock(RegistryObject<Block> blockRegistryObject) {

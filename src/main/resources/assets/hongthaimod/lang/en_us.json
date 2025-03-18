@@ -5,6 +5,7 @@
 
   "item.hongthaimod.mint": "Mint Leaf",
   "item.hongthaimod.mint_seeds": "Mint Seeds",
+  "item.hongthaimod.camphor_fruit": "Camphor Fruit",
 
   "block.hongthaimod.kelp_plastic_block": "Kelp Plastic Block",
 
@@ -14,6 +15,15 @@
   "block.hongthaimod.stripped_eucalyptus_wood": "Stripped Eucalyptus Wood",
   "block.hongthaimod.eucalyptus_planks": "Eucalyptus Planks",
   "block.hongthaimod.eucalyptus_leaves": "Eucalyptus Leaves",
+  "block.hongthaimod.eucalyptus_sapling": "Eucalyptus Sapling",
+
+  "block.hongthaimod.camphor_log": "Camphor Log",
+  "block.hongthaimod.camphor_wood": "Camphor Wood",
+  "block.hongthaimod.stripped_camphor_log": "Stripped Camphor Log",
+  "block.hongthaimod.stripped_camphor_wood": "Stripped Camphor Wood",
+  "block.hongthaimod.camphor_planks": "Camphor Planks",
+  "block.hongthaimod.camphor_leaves": "Camphor Leaves",
+  "block.hongthaimod.camphor_sapling": "Camphor Sapling",
 
   "creativetab.hongthai_tab": "Hong Thai Mod"
 }
