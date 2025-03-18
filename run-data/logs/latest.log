@@ -1,29 +1,29 @@
-[15Mar2025 16:29:02.060] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, hongthaimod, --all, --output, D:\MC_Modding\forge-1.20.1-47.4.0-mdk\src\generated\resources, --existing, D:\MC_Modding\forge-1.20.1-47.4.0-mdk\src\main\resources]
-[15Mar2025 16:29:02.065] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[15Mar2025 16:29:02.153] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[15Mar2025 16:29:02.190] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/User/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[15Mar2025 16:29:02.399] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[15Mar2025 16:29:02.401] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[15Mar2025 16:29:02.404] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[15Mar2025 16:29:02.406] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[15Mar2025 16:29:02.459] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[15Mar2025 16:29:03.439] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, hongthaimod, --all, --output, D:\MC_Modding\forge-1.20.1-47.4.0-mdk\src\generated\resources, --existing, D:\MC_Modding\forge-1.20.1-47.4.0-mdk\src\main\resources]
-[15Mar2025 16:29:03.752] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [hongthaimod]
-[15Mar2025 16:29:06.597] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[15Mar2025 16:29:06.600] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[15Mar2025 16:29:06.862] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/User/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[15Mar2025 16:29:06.862] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/User/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[15Mar2025 16:29:06.987] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[15Mar2025 16:29:07.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 25 ms
-[15Mar2025 16:29:07.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[15Mar2025 16:29:07.047] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 32 ms
-[15Mar2025 16:29:07.047] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: hongthaimod
-[15Mar2025 16:29:07.128] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: hongthaimod finished after 80 ms
-[15Mar2025 16:29:07.128] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: hongthaimod
-[15Mar2025 16:29:07.130] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: hongthaimod finished after 1 ms
-[15Mar2025 16:29:07.130] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id hongthaimod
-[15Mar2025 16:29:07.132] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id hongthaimod finished after 2 ms
-[15Mar2025 16:29:07.132] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id hongthaimod
-[15Mar2025 16:29:07.133] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id hongthaimod finished after 0 ms
-[15Mar2025 16:29:07.133] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 145 ms
-[15Mar2025 16:29:07.137] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 22, old count: 21, new count: 22, removed stale: 1, written: 1
+[18Mar2025 16:38:55.484] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, hongthaimod, --all, --output, D:\MC_Modding\HongThai_Mod\src\generated\resources, --existing, D:\MC_Modding\HongThai_Mod\src\main\resources]
+[18Mar2025 16:38:55.490] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[18Mar2025 16:38:55.628] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[18Mar2025 16:38:55.681] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/User/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[18Mar2025 16:38:55.910] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[18Mar2025 16:38:55.914] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[18Mar2025 16:38:55.917] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[18Mar2025 16:38:55.920] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[18Mar2025 16:38:55.979] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[18Mar2025 16:38:56.941] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, hongthaimod, --all, --output, D:\MC_Modding\HongThai_Mod\src\generated\resources, --existing, D:\MC_Modding\HongThai_Mod\src\main\resources]
+[18Mar2025 16:38:57.263] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [hongthaimod]
+[18Mar2025 16:39:00.378] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[18Mar2025 16:39:00.379] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[18Mar2025 16:39:00.658] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/User/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[18Mar2025 16:39:00.658] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/User/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[18Mar2025 16:39:00.839] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[18Mar2025 16:39:00.868] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 28 ms
+[18Mar2025 16:39:00.868] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[18Mar2025 16:39:00.895] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 26 ms
+[18Mar2025 16:39:00.895] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: hongthaimod
+[18Mar2025 16:39:00.972] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: hongthaimod finished after 75 ms
+[18Mar2025 16:39:00.972] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: hongthaimod
+[18Mar2025 16:39:00.974] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: hongthaimod finished after 2 ms
+[18Mar2025 16:39:00.975] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id hongthaimod
+[18Mar2025 16:39:00.977] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id hongthaimod finished after 1 ms
+[18Mar2025 16:39:00.977] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id hongthaimod
+[18Mar2025 16:39:00.977] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id hongthaimod finished after 0 ms
+[18Mar2025 16:39:00.977] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 138 ms
+[18Mar2025 16:39:00.981] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 25, old count: 21, new count: 24, removed stale: 2, written: 14
