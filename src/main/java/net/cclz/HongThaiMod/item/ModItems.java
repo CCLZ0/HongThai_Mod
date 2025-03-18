@@ -22,6 +22,9 @@ public class ModItems {
     public static final RegistryObject<Item> KELP_PLASTIC = ITEMS.register("kelp_plastic",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CAMPHOR_FRUIT = ITEMS.register("camphor_fruit",
+            () -> new Item(new Item.Properties().food(ModFoods.CAMPHOR_FRUIT)));
+
     public static final RegistryObject<Item> MINT = ITEMS.register("mint",
             () -> new Item(new Item.Properties().food(ModFoods.MINT)));
 

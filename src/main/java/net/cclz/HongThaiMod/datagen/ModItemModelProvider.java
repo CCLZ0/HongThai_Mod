@@ -1,10 +1,12 @@
 package net.cclz.HongThaiMod.datagen;
 
 import net.cclz.HongThaiMod.HongThaiMod;
+import net.cclz.HongThaiMod.block.ModBlocks;
 import net.cclz.HongThaiMod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -22,6 +24,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.KELP_PLASTIC);
         simpleItem(ModItems.MINT);
         simpleItem(ModItems.MINT_SEEDS);
+        simpleItem(ModItems.CAMPHOR_FRUIT);
+        saplingItem(ModBlocks.EUCALYPTUS_SAPLING);
+        saplingItem(ModBlocks.CAMPHOR_SAPLING);
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(HongThaiMod.MOD_ID,"block/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

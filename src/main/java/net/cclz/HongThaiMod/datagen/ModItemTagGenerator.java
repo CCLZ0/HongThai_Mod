@@ -23,9 +23,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModBlocks.EUCALYPTUS_LOG.get().asItem())
                 .add(ModBlocks.EUCALYPTUS_WOOD.get().asItem())
                 .add(ModBlocks.STRIPPED_EUCALYPTUS_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get().asItem())
+                .add(ModBlocks.CAMPHOR_LOG.get().asItem())
+                .add(ModBlocks.CAMPHOR_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_CAMPHOR_LOG.get().asItem())
                 .add(ModBlocks.STRIPPED_EUCALYPTUS_WOOD.get().asItem());
 
         this.tag(ItemTags.PLANKS)
-                .add(ModBlocks.EUCALYPTUS_PLANKS.get().asItem());
+                .add(ModBlocks.EUCALYPTUS_PLANKS.get().asItem())
+                .add(ModBlocks.CAMPHOR_PLANKS.get().asItem());
     }
 }

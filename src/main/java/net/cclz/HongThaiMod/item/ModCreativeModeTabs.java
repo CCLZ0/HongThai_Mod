@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HONGTHAI.get());
                         output.accept(ModItems.BOTTLE.get());
                         output.accept(ModItems.KELP_PLASTIC.get());
+                        output.accept(ModItems.CAMPHOR_FRUIT.get());
                         output.accept(ModItems.MINT.get());
                         output.accept(ModItems.MINT_SEEDS.get());
 
@@ -33,6 +34,16 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.EUCALYPTUS_PLANKS.get());
                         output.accept(ModBlocks.EUCALYPTUS_LEAVES.get());
+                        output.accept(ModBlocks.EUCALYPTUS_SAPLING.get());
+
+                        output.accept(ModBlocks.CAMPHOR_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_CAMPHOR_LOG.get());
+                        output.accept(ModBlocks.CAMPHOR_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_CAMPHOR_WOOD.get());
+
+                        output.accept(ModBlocks.CAMPHOR_PLANKS.get());
+                        output.accept(ModBlocks.CAMPHOR_LEAVES.get());
+                        output.accept(ModBlocks.CAMPHOR_SAPLING.get());
                     })
                     .build());
 
