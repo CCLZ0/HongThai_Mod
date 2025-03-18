@@ -37,12 +37,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SS ")
                 .define('S', Items.KELP)
                 .unlockedBy(getHasName(Items.KELP), has(Items.KELP))
-                .save(pWriter);
+                .save(pWriter, HongThaiMod.MOD_ID + ":kelp_plastic_from_kelp");
 
-//        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.KELP_PLASTIC.get())
-//                .requires(ModBlocks.KELP_PLASTIC_BLOCK.get())
-//                .unlockedBy(getHasName(ModBlocks.KELP_PLASTIC_BLOCK.get()), has(ModBlocks.KELP_PLASTIC_BLOCK.get()))
-//                .save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.KELP_PLASTIC.get())
+                .requires(ModBlocks.KELP_PLASTIC_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.KELP_PLASTIC_BLOCK.get()), has(ModBlocks.KELP_PLASTIC_BLOCK.get()))
+                .save(pWriter, HongThaiMod.MOD_ID + ":kelp_plastic_from_block");
     }
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
         oreCooking(pFinishedRecipeConsumer, RecipeSerializer.SMELTING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTIme, pGroup, "_from_smelting");
