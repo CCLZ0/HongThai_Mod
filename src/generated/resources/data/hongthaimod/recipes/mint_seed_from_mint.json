@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hongthaimod:mint"
+    }
+  ],
+  "result": {
+    "item": "hongthaimod:mint_seeds"
+  }
+}
