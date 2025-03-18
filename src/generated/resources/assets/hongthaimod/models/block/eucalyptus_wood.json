@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "hongthaimod:block/eucalyptus_log",
+    "side": "hongthaimod:block/eucalyptus_log"
+  }
+}

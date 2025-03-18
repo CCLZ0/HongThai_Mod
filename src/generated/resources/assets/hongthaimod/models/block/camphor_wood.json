@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "hongthaimod:block/camphor_log",
+    "side": "hongthaimod:block/camphor_log"
+  }
+}
